@@ -35,6 +35,9 @@
   &quot;keyToString&quot;: {
     &quot;Application.ClientApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClientCLI.executor&quot;: &quot;Run&quot;,
+
+    &quot;JUnit.ClientCLITest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RESTClientTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -46,7 +49,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/keyinclient/Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientCLI">
+  <component name="RunManager" selected="JUnit.ClientCLITest">
     <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="keyinclient.ClientApplication" />
       <module name="Sprint_OneS4_Client_Server" />
@@ -74,12 +77,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientCLITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_OneS4_Client_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keyinclient.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keyinclient.cli" />
+      <option name="MAIN_CLASS_NAME" value="keyinclient.cli.ClientCLITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RESTClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_OneS4_Client_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keyinclient.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keyinclient.client" />
+      <option name="MAIN_CLASS_NAME" value="keyinclient.client.RESTClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientApplication" />
       <item itemvalue="Application.ClientCLI" />
+      <item itemvalue="JUnit.ClientCLITest" />
+      <item itemvalue="JUnit.RESTClientTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientCLITest" />
+        <item itemvalue="JUnit.RESTClientTest" />
         <item itemvalue="Application.ClientCLI" />
         <item itemvalue="Application.ClientApplication" />
       </list>

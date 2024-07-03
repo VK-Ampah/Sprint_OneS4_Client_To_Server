@@ -33,7 +33,7 @@ public class ClientCLI implements CommandLineRunner {
         return report.toString();
     }
 
-    private void listAircraftForPassenger(int passengerId) {
+    void listAircraftForPassenger(int passengerId) {
         getRestClient().setServerURL("http://localhost:8080/passengers/" + passengerId + "/aircrafts");
         List<Aircraft> aircrafts = getRestClient().getAllAircrafts();
         aircrafts.forEach(aircraft -> System.out.println(aircraft.getType()));
