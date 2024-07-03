@@ -35,6 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.ClientApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClientCLI.executor&quot;: &quot;Run&quot;,
+
     &quot;JUnit.ClientCLITest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.RESTClientTest.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
