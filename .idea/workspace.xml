@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2655e424-07de-4a6f-a7aa-1496f7263132" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/cli/ClientCLI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/client/RESTClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/model/Aircraft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/model/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/model/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/service/AirportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/keyinclient/service/PassengerService.java" afterDir="false" />
+    <list default="true" id="2655e424-07de-4a6f-a7aa-1496f7263132" name="Changes" comment="Add initial models and services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +96,19 @@
       <option name="presentableId" value="Default" />
       <updated>1719239363418</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add initial models and services">
+      <option name="closed" value="true" />
+      <created>1719955323287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719955323287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial models and services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial models and services" />
   </component>
 </project>
