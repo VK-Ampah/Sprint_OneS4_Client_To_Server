@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2655e424-07de-4a6f-a7aa-1496f7263132" name="Changes" comment="Add initial models and services">
+      <change afterPath="$PROJECT_DIR$/src/test/java/keyinclient/cli/ClientCLITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keyinclient/client/RESTClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/keyinclient/cli/ClientCLI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/keyinclient/cli/ClientCLI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,8 @@
   "keyToString": {
     "Application.ClientApplication.executor": "Run",
     "Application.ClientCLI.executor": "Run",
+    "JUnit.ClientCLITest.executor": "Run",
+    "JUnit.RESTClientTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
@@ -48,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/keyinclient/Model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientCLI">
+  <component name="RunManager" selected="JUnit.ClientCLITest">
     <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="keyinclient.ClientApplication" />
       <module name="Sprint_OneS4_Client_Server" />
@@ -76,12 +82,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClientCLITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_OneS4_Client_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keyinclient.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keyinclient.cli" />
+      <option name="MAIN_CLASS_NAME" value="keyinclient.cli.ClientCLITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RESTClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_OneS4_Client_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keyinclient.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keyinclient.client" />
+      <option name="MAIN_CLASS_NAME" value="keyinclient.client.RESTClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientApplication" />
       <item itemvalue="Application.ClientCLI" />
+      <item itemvalue="JUnit.ClientCLITest" />
+      <item itemvalue="JUnit.RESTClientTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientCLITest" />
+        <item itemvalue="JUnit.RESTClientTest" />
         <item itemvalue="Application.ClientCLI" />
         <item itemvalue="Application.ClientApplication" />
       </list>
